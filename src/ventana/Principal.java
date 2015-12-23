@@ -192,6 +192,7 @@ public class Principal extends javax.swing.JFrame {
                 float distancia = distFrom(latitudA, longitudA, latitudB, longitudB);
                 jTF_Distancia.setText(String.valueOf(distancia));
             }
+            //Mensaje de Error
             else
                 JOptionPane.showMessageDialog(null, "Error: Uno de los Campos no es Numerico");
         }
